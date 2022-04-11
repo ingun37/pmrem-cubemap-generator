@@ -21,7 +21,7 @@
   "files": [
     "dist"
   ],
-  "main": "./src/PMREMCubeMapGenerator.js",
+  "main": "./dist/PMREMCubeMapGenerator.js",
   "types": "./dist/PMREMCubeMapGenerator.d.ts",
   "repository": {
     "type": "git",
