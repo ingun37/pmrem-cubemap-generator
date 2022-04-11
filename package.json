@@ -26,5 +26,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ingun37/pmrem-cubemap-generator.git"
+  },
+  "release": {
+    "branches": ["main"]
   }
 }
