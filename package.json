@@ -11,13 +11,20 @@
   "license": "ISC",
   "devDependencies": {
     "@types/three": "^0.139.0",
+    "semantic-release": "^19.0.2",
     "three": "^0.139.2",
     "typescript": "^4.6.3"
   },
   "peerDependencies": {
     "three": "^0.139.2"
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./src/PMREMCubeMapGenerator.js",
-  "types": "./dist/PMREMCubeMapGenerator.d.ts"
+  "types": "./dist/PMREMCubeMapGenerator.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ingun37/pmrem-cubemap-generator.git"
+  }
 }
