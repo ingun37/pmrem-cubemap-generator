@@ -1,0 +1,23 @@
+{
+  "name": "pmrem-cubemap-generator",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/three": "^0.139.0",
+    "three": "^0.139.2",
+    "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "three": "^0.139.2"
+  },
+  "files": ["dist"],
+  "main": "./src/PMREMCubeMapGenerator.js",
+  "types": "./dist/PMREMCubeMapGenerator.d.ts"
+}
